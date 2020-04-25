@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<title>Buyer Dashboard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-content" style="max-width:1300px">
+
+<!-- First Grid-->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Navigate</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
+      <a href="#enlist" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Update Location</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Find Sellers</a>
+      
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>Profile</h1>
+      <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
+      <div class="w3-left-align w3-padding-large">
+        <p>Name:<br>
+            Mobile No:<br>
+            Email:<br>
+            Address:<br>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid-->
+<div class="w3-row">
+  <div class="w3-full w3-light-grey w3-center" style="min-height:800px" id="enlist">
+    <div class="w3-padding-64">
+      <h2>Enlist Items</h2>
+      <p>Give your current location, to find nearby sellers<br>
+        function to change orignal location<br>
+        
+        <button type="submit" class="w3-button w3-teal w3-right">Submit</button>
+    </p>
+    </div>
+    
+    
+  
+
+<!-- Third Grid-->
+<div class="w3-row" id="contact">
+  
+  <div class="w3-full w3-teal w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Details of nearest Sellers</h1>
+      <p class="w3-opacity">GET IN TOUCH</p>
+      <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Name">
+        </div>
+        <div class="w3-section">
+          <label>Mobile No</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Email">
+        </div>
+        <div class="w3-section">
+          <label>Location</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Location">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

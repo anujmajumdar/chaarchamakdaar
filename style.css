@@ -1,0 +1,83 @@
+*{ margin:0;
+   padding:0;
+   font-family:0;
+ }
+header{
+  background-image:url(../1.png);
+  height: 100vh;
+
+background-position:center;}
+ 
+ul{ animation: transitionIn 2s;
+	float:right;
+	list-style-type:none;
+	margin-top:25px;
+	margin-right:50px;
+}
+ul li{ 
+	font-size:20px;
+	font-style:"bold";
+	font-family:Andale Mono, monospace;
+	display:inline-block;
+}
+ul li a{
+	text-decoration:none;
+	color: #fff;
+	padding: 10px 40px;
+	border:1px solid #fff;
+	margin-right:10px;
+}
+ul li a:hover{
+	animation: transitionIn 1s;
+	background-color:#fff;
+    color:#8A9C73;}
+	
+.title h1{
+	animation: transitionIn 2s;
+	color:#fff;
+	font-size:70px;
+	font-family:georgia,garamond,serif;
+	margin-top:25px;
+	margin-left:25px;
+}
+
+@keyframes transitionIn{
+	from{
+		opacity:0;
+		transform:translateY(-10px);
+	}
+	to{
+		opacity:1;
+		transform:translateY(0);		
+	}
+	
+	
+}
+.login{
+	font-style:"bold";
+	font-family:Andale Mono, monospace;
+	animation: transitionIn 2s;
+	float:center;
+	list-style-type:none;
+	margin-top:100px;
+	margin-left:100px;
+}
+.login li{ 
+	font-size:40px;
+	font-style:"bold";
+	font-family:Andale Mono, monospace;
+	display:block;
+}
+.login li a{
+	text-decoration:none;
+	color: #fff;
+	padding: 5px 30px;
+	border:1px solid #fff;
+	margin-right:10px;
+	margin-top:40px;
+}
+.login li a:hover{
+	animation: transitionIn 1s;
+	background-color:#fff;
+    color:#8A9C73;}
+
